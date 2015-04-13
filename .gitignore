@@ -194,3 +194,33 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+
+#OSX
+.DS_Store
+
+#Android generated
+bin
+gen
+target
+out
+
+#Eclipse
+.project
+.classpath
+.settings
+
+#IntelliJ IDEA
+.idea
+*.iml
+classes
+
+#Maven
+target
+release.properties
+pom.xml.*
+gen-external-apklibs
+
+#Command line
+local.properties
+build.xml
+proguard-project.txt
